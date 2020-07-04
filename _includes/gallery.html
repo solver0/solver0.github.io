@@ -10,14 +10,12 @@ html { overflow-y: scroll; }
 <div id='masonry' class="grid">
 <div class="grid-sizer"></div>
 <div class="gutter-sizer"></div>
-{% for image in site.static_files %}
-  {% if image.path contains include.gallery_path %}
-    {% unless image.path contains '.md' %}
-        <img src="{{ image.path | relative_url }}" alt="" class="grid-item" style="padding: 0;">
-    {% endunless %}  
-  {% endif %}
+{% for item in site.portfolio %}
+    <a class="gallery-link" data-keyboard="true" href="{{ item.url | relative_url }}">
+        <img src="{{ item.img | relative_url }}" alt="" class="grid-item" style="padding: 0;">
+    </a>
 {% endfor %}
-</div> 
+</div>
 
 <script src="{{ "/assets/js/vendor/imagesloaded.min.js" | relative_url }}" type="text/javascript"></script>
 <script src="{{ "/assets/js/vendor/masonry.pkgd.min.js" | relative_url }}" type="text/javascript"></script>
