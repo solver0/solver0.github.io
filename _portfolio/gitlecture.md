@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Github
-img: "assets/img/portfolio/github.png"
+img: "assets/img/procreate/AF5F1C4A-B124-4BFC-B765-D6A9E8210770.jpeg"
 date: 20-10-2017
 tags: [Lorem, Portfolio]
 ---
