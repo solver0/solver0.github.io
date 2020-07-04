@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Cake
-feature-img: "assets/img/portfolio/cake.png"
-img: "assets/img/portfolio/cake.png"
+feature-img: "assets/img/procreate/6524DFD3-9A24-45E9-BD72-019C44D8B9D8.jpeg"
+img: "assets/img/procreate/6524DFD3-9A24-45E9-BD72-019C44D8B9D8.jpeg"
 date: 27 September 2015
 tags: [Lorem, Ipsum, Portfolio]
 ---
